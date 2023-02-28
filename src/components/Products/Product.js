@@ -1,4 +1,6 @@
 import React from "react";
+import styles from './Products.module.scss'
+//import iphone from '../../assets/iphone.jpg'
 
 function Product(props){
 
@@ -7,7 +9,7 @@ function Product(props){
     }
 
     return (
-        <div className="product">
+        <div className={styles.product}>
             <div className="body">
                 <h1 className="title">{props.name}</h1>
                 <div className="price">{props.price}</div>
@@ -18,3 +20,10 @@ function Product(props){
 }
 
 export default Product;
+
+// const nameChecker = (str) => {
+//     if (str.length <= 1 || str.trim() === '') {
+//       return false;
+//     }
+//     return true;
+//   };

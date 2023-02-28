@@ -1,5 +1,5 @@
 import './scss/style.scss'
-import App from './App.js'
+import App from './App/App.js'
 import React from 'react'
 import * as ReactDOMClient from 'react-dom/client';
 
