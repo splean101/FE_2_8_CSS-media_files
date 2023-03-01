@@ -5,6 +5,9 @@
         &:not(:last-child){
             margin-bottom: 10px;
         }
+        img{
+            width: 50px;
+        }
         button{
             display: block;
             justify-self: flex-end;
